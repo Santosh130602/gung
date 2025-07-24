@@ -11,10 +11,10 @@ function App() {
     <>
     <Header />
       <Toaster position="top-center" reverseOrder={false} />
-      <Routes>
+      {/* <Routes> */}
         <Route path="/" element={<CategoryGrid />} />
         <Route path="/category/:name" element={<CategoryDetail />} />
-      </Routes>
+      {/* </Routes> */}
       <Footer />
     </>
   );
