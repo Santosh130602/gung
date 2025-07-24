@@ -1,0 +1,14 @@
+.card-hover-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: #276749; /* Tailwind green-700 */
+  transform: translateY(100%);
+  transition: transform 0.5s ease-in-out;
+  border-radius: 2rem;
+  z-index: 0;
+}
+
+.card-hover-bg:hover::before {
+  transform: translateY(0%);
+}
