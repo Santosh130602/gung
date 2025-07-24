@@ -62,7 +62,7 @@ const TestimonialSlider = () => {
         >
           {testimonials.map((t, index) => (
             <SwiperSlide key={index}>
-              <div className="relative overflow-hidden rounded-[2rem] card-hover-bg group p-12 h-full mt-2 bg-gray-100 text-black transition-all duration-500 hover:text-white hover:-translate-y-2">
+              <div className="relative overflow-hidden rounded-[2rem] card-hover-bg group p-12 h-full mt-2 bg-gray-100 text-black transition-all duration-500 hover:text-white hover:-translate-y-2 cursor-pointer">
                 <div className="relative z-10">
                   <div className="flex gap-1 mb-4 text-yellow-400">
                     {Array(5)

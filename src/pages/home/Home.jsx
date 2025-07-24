@@ -11,14 +11,13 @@ const Home = () => {
 
     return (
         <div>
-            <Header/>
             <HeroSwiper/>
             <Collection/>
             <CategoryGrid/>
             <TrendingNow/>
             <RJWorld/>
             <TestimonialSlider/>
-            <Footer/>
+            
         </div>
     );
     }

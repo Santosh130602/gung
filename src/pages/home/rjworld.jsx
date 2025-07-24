@@ -33,7 +33,7 @@ const RJWorld = () => {
             key={index}
             className={`relative rounded-xl overflow-hidden shadow-md group transition-transform duration-300 ${
               index % 2 === 0 ? "-translate-y-2" : "translate-y-2"
-            }`}
+            } cursor-pointer`}
           >
             <img
               src={item.img}

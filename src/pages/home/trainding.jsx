@@ -26,7 +26,7 @@ const TrendingNow = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-7xl mx-auto">
         {trendingItems.map((item, idx) => (
           <div key={idx} className="flex flex-col items-center">
-            <div className="w-full aspect-square rounded-xl overflow-hidden shadow-md">
+            <div className="w-full aspect-square rounded-xl overflow-hidden shadow-md cursor-pointer">
               <img
                 src={item.img}
                 alt={item.title}
